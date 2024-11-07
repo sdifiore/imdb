@@ -11,7 +11,7 @@ COPY environment.yml .
 RUN conda env create -f environment.yml
 
 # Activate the environment and make it the default
-RUN echo "conda activate kaggle" >> ~/.bashrc
+RUN echo "conda activate imdb" >> ~/.bashrc
 ENV PATH /opt/conda/envs/kaggle/bin:$PATH
 
 # Optionally, set an entry point (e.g., Python shell)
