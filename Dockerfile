@@ -15,4 +15,4 @@ RUN echo "conda activate imdb" >> ~/.bashrc
 ENV PATH /opt/conda/envs/kaggle/bin:$PATH
 
 # Optionally, set an entry point (e.g., Python shell)
-ENTRYPOINT ["python"]
+ENTRYPOINT ["sh"]
