@@ -1,0 +1,12 @@
+name    : imdb
+channels:
+  - default
+  - conda-forge
+
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - scikit-learn
+  - ipykernel
+  - jupyter
